@@ -1,0 +1,94 @@
+#imgFileForm , #logoFileForm{
+    margin: 16px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all .5s;
+   
+    
+}
+
+    #imgFileForm #textfileLabel , #logoFileForm #logofileLabel {
+    /* background-color: white; */
+    display: block;
+    padding: 16px;
+    position: relative;
+    cursor: pointer;
+    transition: all .5s;
+    height: 400px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1272d445;
+     border: dashed 2px #80808040;
+}
+ #imgFileForm #textfileLabel:hover , #logoFileForm #logofileLabel:hover{
+    border: dashed 2px gray;
+}
+ #logoInput , #imgInput{
+   display: none;
+}
+#textfileLabel:after,
+#textfileLabel:before,
+#logofileLabel:after,
+#logofileLabel:before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #1272d445;
+    z-index: -2 ;
+    border-radius: 8px 8px 0 0;
+}
+
+#textfileLabel:before,
+#logofileLabel:before{
+    z-index: 0;
+    background: repeating-linear-gradient(45deg, transparent, transparent 5%, black 5%, black 10%);
+    opacity: 0;
+    transition: all .5s;
+}
+.textHover #textfileLabel:before, .logoHover #logofileLabel{
+    opacity: .25;
+}
+
+#imgFileForm  .uploadButton , #logoFileForm .uploadButton{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 50%;
+    padding: 8px;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+}
+.textHover , .logoHover {
+    box-shadow: 0 0 20px black;
+   
+}
+#textLabelText , #logoLabelText{
+    color: white;
+    font-size: 30px;
+    /* font-style: italic; */
+    font-family: 'Yeseva One', cursive;
+    
+}
+.upload-files{
+    width: 25%;
+    background: rgba(0, 91, 227, 1);
+    /* height: 100%; */
+    /* border: 2px dashed gray; */
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px black;
+
+    transition: all ease .5s;
+}
+.upload-files:hover{
+    box-shadow: 0px 10px 20px 1px black;
+}

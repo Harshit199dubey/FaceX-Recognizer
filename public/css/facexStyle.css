@@ -1,0 +1,28 @@
+.fx-bg{
+	background: url(../img/fx-bg.jpg) no-repeat center center fixed ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px;
+}
+.fx-inner{
+	padding: 80px;
+  width: 100%;
+
+	background:rgba(2,3,45,.6) no-repeat center center fixed ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#contact-us{
+  background: url(/img/contact-bg.png) no-repeat center center fixed ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
