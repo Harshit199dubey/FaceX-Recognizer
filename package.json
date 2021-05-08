@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@google-cloud/vision": "^2.1.0",
+    "box-node-sdk": "^1.37.0",
     "ejs": "^2.7.1",
     "express": "^4.17.1",
     "jspdf": "^1.5.3",
@@ -18,7 +19,7 @@
   "devDependencies": {
     "nodemon": "^2.0.4"
   },
-  "publishConfig": { 
-    "registry": "https://npm.pkg.github.com/" 
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
